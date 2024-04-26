@@ -39,6 +39,7 @@ export const UserItem = ({ username, imageUrl, isLive }: UserItemProps) => {
           )}
         >
           <UserAvatar
+            size="default"
             imageUrl={imageUrl}
             username={username}
             isLive={isLive}
