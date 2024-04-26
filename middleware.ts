@@ -1,8 +1,7 @@
 import { clerkMiddleware } from "@clerk/nextjs/server";
 
 export default clerkMiddleware({
-  afterSignInUrl: "/",
-  proxyUrl: "/api/webhooks(.*)",
+  // publishableKey: process.env.CLERK_PUBLISHABLE_KEY,
 });
 
 export const config = {
